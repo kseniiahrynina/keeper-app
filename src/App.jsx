@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <>
-      <BurgerMenu />
+      {/* <BurgerMenu /> */}
       <Header />
       <CreateArea onAdd={addNote} />
       {notes.map((note, index) => (
